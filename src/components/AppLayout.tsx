@@ -994,11 +994,11 @@ const AppLayout: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <a href="mailto:vendors@palmdesertfair.com" className="flex items-center bg-white text-orange-600 px-6 py-3 rounded-full font-semibold hover:bg-orange-50 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
-                vendors@palmdesertfair.com
+                palmdesertfair@email.com
               </a>
               <a href="tel:+17605551234" className="flex items-center bg-white/20 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-colors">
                 <Phone className="w-5 h-5 mr-2" />
-                (760) 555-1234
+                (650) 762-9764
               </a>
             </div>
           </div>
