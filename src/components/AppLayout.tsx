@@ -107,7 +107,7 @@ const AppLayout: React.FC = () => {
       // IMPORTANT: Replace 'YOUR_FORM_ID' with your actual Formspree form ID
       // Go to https://formspree.io, create a free account, create a new form,
       // and copy your unique form endpoint (e.g., https://formspree.io/f/xyzabcde)
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('https://formspree.io/f/mjggveol', {
         method: 'POST',
 
         headers: {
