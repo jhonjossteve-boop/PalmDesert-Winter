@@ -98,7 +98,7 @@ const AppLayout: React.FC = () => {
       totalAmount: `$${pricing.total}`,
       vendorFee: `$${pricing.vendorTotal}`,
       electricityFee: formData.electricity ? `$${pricing.electricityTotal}` : 'Not selected',
-      eventName: 'Palm Desert Winter Outdoor Street Fair',
+      eventName: 'Central Nebraska Home & Builders Show 2026',
       eventDates: 'January 17-18, 2026',
       eventLocation: 'College of the Desert, 43-500 Monterey Avenue, Palm Desert, CA'
     };
@@ -292,7 +292,7 @@ const AppLayout: React.FC = () => {
               Event Details
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Everything you need to know about the Palm Desert Winter Outdoor Street Fair
+              Everything you need to know about the Central Nebraska Home & Builders Show 2026
             </p>
           </div>
           
@@ -1076,7 +1076,7 @@ const AppLayout: React.FC = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
-            <p>&copy; 2026 Palm Desert Winter Outdoor Street Fair. All rights reserved.</p>
+            <p>&copy; 2026 Central Nebraska Home & Builders Show 2026. All rights reserved.</p>
           </div>
         </div>
       </footer>
