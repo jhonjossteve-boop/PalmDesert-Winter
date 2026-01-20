@@ -99,8 +99,8 @@ const AppLayout: React.FC = () => {
       vendorFee: `$${pricing.vendorTotal}`,
       electricityFee: formData.electricity ? `$${pricing.electricityTotal}` : 'Not selected',
       eventName: 'Central Nebraska Home & Builders Show 2026',
-      eventDates: 'January 17-18, 2026',
-      eventLocation: 'College of the Desert, 43-500 Monterey Avenue, Palm Desert, CA'
+      eventDates: 'January 23-25, 2026',
+      eventLocation: 'Fonner Park Campus, Grand Island, NE 68801'
     };
 
     try {
@@ -258,7 +258,7 @@ const AppLayout: React.FC = () => {
             </div>
             <div className="flex items-center bg-white/20 backdrop-blur-sm rounded-xl px-6 py-3">
               <MapPin className="w-5 h-5 text-yellow-300 mr-3" />
-              <span className="text-white font-semibold">College of the Desert</span>
+              <span className="text-white font-semibold">Fonner Park Campus</span>
             </div>
           </div>
           
@@ -312,9 +312,9 @@ const AppLayout: React.FC = () => {
                 <MapPin className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
-              <p className="text-gray-600">College of the Desert</p>
-              <p className="text-gray-600">43-500 Monterey Avenue</p>
-              <p className="text-sm text-blue-600 mt-2 font-medium">Palm Desert, CA</p>
+              <p className="text-gray-600">Fonner Park Campus</p>
+              <p className="text-gray-600">Grand Island</p>
+              <p className="text-sm text-blue-600 mt-2 font-medium"> NE 68801</p>
             </div>
             
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 text-center hover:shadow-xl transition-shadow">
@@ -1015,7 +1015,7 @@ const AppLayout: React.FC = () => {
                 <span className="font-bold text-xl">Palm Desert Street Fair</span>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
-                Join us for the most anticipated outdoor market of the winter season at the beautiful College of the Desert campus.
+                Join us for the most anticipated outdoor market of the winter season at the beautiful Fonner Park Campus campus.
               </p>
               <div className="flex items-center space-x-4">
                 <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors">
@@ -1043,7 +1043,7 @@ const AppLayout: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <MapPin className="w-4 h-4 mr-2 mt-1 text-orange-500" />
-                  <span>College of the Desert<br />43-500 Monterey Avenue<br />Palm Desert, CA</span>
+                  <span>Fonner Park Campus<br />Grand Island<br /> NE 68801</span>
                 </li>
               </ul>
             </div>
